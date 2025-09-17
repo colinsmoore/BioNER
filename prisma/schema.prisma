@@ -1,0 +1,46 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-py"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Gene {
+  hgnc_id String @id @unique
+  name String
+  aliases Alias[] @relation(name: "gene_aliases")
+  hg38_pos_id Int @unique
+  hg38_pos Gene_Position @relation(name: "hg38_pos", fields: [hg38_pos_id], references: [id])
+  hg19_pos_id Int @unique
+  hg19_pos Gene_Position @relation(name: "hg19_pos", fields: [hg19_pos_id], references: [id])
+  diseases Disease[] @relation(name: "diseases_associations")
+}
+
+model Alias {
+  id Int @id @default(autoincrement())
+  alias_name String
+  gene Gene[] @relation(name: "gene_aliases")
+}
+
+model Gene_Position {
+  id Int @id @default(autoincrement())
+  assembly String
+  chr Int
+  start Int
+  end Int
+  gene_hg38 Gene? @relation(name: "hg38_pos")
+  gene_hg19 Gene? @relation(name: "hg19_pos")
+}
+
+model Disease {
+  id Int @id @default(autoincrement())
+  disease String
+  Gene Gene[] @relation(name: "diseases_associations")
+}
+

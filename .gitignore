@@ -1,0 +1,11 @@
+node_modules
+# Keep environment variables out of version control
+.env
+/venv
+
+/src/generated/prisma
+
+annotations.json
+genes.json
+output.json
+text.txt
