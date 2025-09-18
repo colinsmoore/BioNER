@@ -3,7 +3,7 @@
 
 generator client {
   provider = "prisma-client-py"
-  output   = "../src/generated/prisma"
+  recursive_type_depth = 5
 }
 
 datasource db {
@@ -14,26 +14,27 @@ datasource db {
 model Gene {
   hgnc_id String @id @unique
   name String
-  aliases Alias[] @relation(name: "gene_aliases")
+  aliases Alias[]
   hg38_pos_id Int @unique
   hg38_pos Gene_Position @relation(name: "hg38_pos", fields: [hg38_pos_id], references: [id])
   hg19_pos_id Int @unique
   hg19_pos Gene_Position @relation(name: "hg19_pos", fields: [hg19_pos_id], references: [id])
-  diseases Disease[] @relation(name: "diseases_associations")
+  gene_diseases GeneDisease[]
 }
 
 model Alias {
   id Int @id @default(autoincrement())
   alias_name String
-  gene Gene[] @relation(name: "gene_aliases")
+  gene Gene @relation(fields: [gene_id], references: [hgnc_id])
+  gene_id String 
 }
 
 model Gene_Position {
   id Int @id @default(autoincrement())
-  assembly String
-  chr Int
+  chr String
   start Int
   end Int
+  strand Int
   gene_hg38 Gene? @relation(name: "hg38_pos")
   gene_hg19 Gene? @relation(name: "hg19_pos")
 }
@@ -41,6 +42,15 @@ model Gene_Position {
 model Disease {
   id Int @id @default(autoincrement())
   disease String
-  Gene Gene[] @relation(name: "diseases_associations")
+  gene_diseases GeneDisease[]
+}
+
+model GeneDisease {
+  gene Gene @relation(fields: [gene_id], references: [hgnc_id])
+  gene_id String
+  disease Disease @relation(fields: [disease_id], references: [id])
+  disease_id Int
+
+  @@id([gene_id, disease_id])
 }
 

@@ -1,11 +1,5 @@
-node_modules
 # Keep environment variables out of version control
-.env
 /venv
 
+/src/__pycache__
 /src/generated/prisma
-
-annotations.json
-genes.json
-output.json
-text.txt

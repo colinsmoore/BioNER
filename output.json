@@ -1,0 +1,481 @@
+{
+    "7827": {
+        "hgnc_id": "13394",
+        "name": "NPHS2 stomatin family member, podocin",
+        "aliases": [
+            "NPHS2, podocin",
+            "nephrosis 2, idiopathic, steroid-resistant (podocin)",
+            "podocin"
+        ],
+        "hg38": {
+            "chr": "1",
+            "end": 179575952,
+            "ensemblgene": "ENSG00000116218",
+            "start": 179550494,
+            "strand": -1
+        },
+        "hg19": {
+            "chr": "1",
+            "end": 179545087,
+            "start": 179519674,
+            "strand": -1
+        },
+        "diseases": [
+            "FSGS lesion",
+            "Klinefelter syndrome",
+            "hypercholesterolemia",
+            "FSGS",
+            "HPO",
+            "Rare and Undiagnosed Diseases",
+            "proteinuria",
+            "PRaUD",
+            "renal failure",
+            "duplication of the X chromosome",
+            "autosomal recessive nephrotic syndrome type 2",
+            "COL4A-related diseases",
+            "nephrotic syndrome",
+            "hypertriglyceridemia",
+            "inflammatory",
+            "Alport syndrome",
+            "MIM 600995",
+            "syndromes",
+            "deafness",
+            "hypomagnesemia",
+            "azoospermia"
+        ]
+    },
+    "1285": {
+        "hgnc_id": "2204",
+        "name": "collagen type IV alpha 3 chain",
+        "aliases": [
+            "collagen IV, alpha-3 polypeptide",
+            "collagen alpha-3(IV) chain",
+            "collagen, type IV, alpha 3 (Goodpasture antigen)",
+            "tumstatin"
+        ],
+        "hg38": {
+            "chr": "2",
+            "end": 227314792,
+            "ensemblgene": "ENSG00000169031",
+            "start": 227164624,
+            "strand": 1
+        },
+        "hg19": {
+            "chr": "2",
+            "end": 228179508,
+            "start": 228029281,
+            "strand": 1
+        },
+        "diseases": [
+            "FSGS lesion",
+            "FSGS",
+            "Rare and Undiagnosed Diseases",
+            "HPO",
+            "PRaUD",
+            "hyperlipidemia",
+            "congestive heart failure",
+            "diabetes",
+            "renal function decline",
+            "segmental glomerulosclerosis",
+            "COL4A-related diseases",
+            "kidney disease",
+            "nephrotic syndrome",
+            "edema",
+            "inflammatory",
+            "Alport syndrome",
+            "focal segmental glomerulosclerosis",
+            "syndromes",
+            "deafness",
+            "hypomagnesemia"
+        ]
+    },
+    "6927": {
+        "hgnc_id": "11621",
+        "name": "HNF1 homeobox A",
+        "aliases": [
+            "albumin proximal factor",
+            "hepatic nuclear factor 1",
+            "hepatocyte nuclear factor 1-alpha",
+            "interferon production regulator factor",
+            "liver-specific transcription factor LF-B1",
+            "transcription factor 1, hepatic"
+        ],
+        "hg38": {
+            "chr": "12",
+            "end": 121002512,
+            "ensemblgene": "ENSG00000135100",
+            "start": 120978543,
+            "strand": 1
+        },
+        "hg19": {
+            "chr": "12",
+            "end": 121440315,
+            "start": 121416346,
+            "strand": 1
+        },
+        "diseases": [
+            "hypokalemia",
+            "impaired concentration",
+            "HPO",
+            "Rare and Undiagnosed Diseases",
+            "constipation",
+            "angina pectoris",
+            "prolonged QT interval",
+            "PRaUD",
+            "neurological symptoms",
+            "diabetes",
+            "type 2 diabetes",
+            "polyuria",
+            "maturity-onset diabetes of the",
+            "Hypokalemic",
+            "inflammatory",
+            "reduced mentation",
+            "syndromes",
+            "hypomagnesemia",
+            "dizziness",
+            "headaches"
+        ]
+    },
+    "58528": {
+        "hgnc_id": "19903",
+        "name": "Ras related GTP binding D",
+        "aliases": [
+            "Rag D protein",
+            "ras-related GTP-binding protein D"
+        ],
+        "hg38": {
+            "chr": "6",
+            "end": 89412735,
+            "ensemblgene": "ENSG00000025039",
+            "start": 89364616,
+            "strand": -1
+        },
+        "hg19": {
+            "chr": "6",
+            "end": 90121989,
+            "start": 90074355,
+            "strand": -1
+        },
+        "diseases": [
+            "renal calculi",
+            "medullary nephrocalcinosis",
+            "hypokalemia",
+            "ES",
+            "Paresthesias",
+            "HPO",
+            "Rare and Undiagnosed Diseases",
+            "Gitelman syndrome",
+            "PRaUD",
+            "pancreatitis",
+            "GS",
+            "diabetes",
+            "cardiac arrest",
+            "electrolyte imbalances",
+            "electrolyte-losing tubulopathy",
+            "hypocalcemia",
+            "pyelonephritis",
+            "dilated cardiomyopathy",
+            "sepsis",
+            "developmental disorders",
+            "inflammatory",
+            "urinary tract infection",
+            "syndromes",
+            "nephrolithiasis",
+            "tubulopathy",
+            "hypomagnesemia",
+            "urinary tract infections"
+        ]
+    },
+    "4256": {
+        "hgnc_id": "7060",
+        "name": "matrix Gla protein",
+        "aliases": [
+            "cell growth-inhibiting gene 36 protein",
+            "matrix Gla protein"
+        ],
+        "hg38": {
+            "chr": "12",
+            "end": 14887639,
+            "ensemblgene": "ENSG00000111341",
+            "start": 14880864,
+            "strand": -1
+        },
+        "hg19": {
+            "chr": "12",
+            "end": 15038860,
+            "start": 15034115,
+            "strand": -1
+        },
+        "diseases": [
+            "EGBP",
+            "hemolytic uremic syndrome",
+            "FSGS lesion",
+            "obesity",
+            "ES",
+            "hyperglycemia",
+            "Rare and Undiagnosed Diseases",
+            "auto-inflammatory syndromes",
+            "PRaUD",
+            "Nephrology",
+            "rare diseases",
+            "GS",
+            "diabetes",
+            "kidney cysts",
+            "RD",
+            "VUS",
+            "polyuria",
+            "kidney disease",
+            "developmental disorders",
+            "ESRD",
+            "MODY",
+            "nephrology",
+            "Kidney genetic diseases",
+            "tubulointerstitial kidney disease",
+            "glomerulopathies"
+        ]
+    },
+    "8542": {
+        "hgnc_id": "618",
+        "name": "apolipoprotein L1",
+        "aliases": [
+            "apolipoprotein L 1",
+            "apolipoprotein L1",
+            "apolipoprotein L1-B3"
+        ],
+        "hg38": {
+            "chr": "22",
+            "end": 36267530,
+            "ensemblgene": "ENSG00000100342",
+            "start": 36253071,
+            "strand": 1
+        },
+        "hg19": {
+            "chr": "22",
+            "end": 36663576,
+            "start": 36649056,
+            "strand": 1
+        },
+        "diseases": [
+            "hemolytic uremic syndrome",
+            "FSGS lesion",
+            "ES",
+            "FSGS",
+            "PRaUD",
+            "Nephrology",
+            "GS",
+            "kidney cysts",
+            "VUS",
+            "kidney disease",
+            "auto-inflammatory syndrome",
+            "ESRD",
+            "focal segmental glomerulosclerosis",
+            "nephrology",
+            "tubulointerstitial kidney disease",
+            "glomerulopathies"
+        ]
+    },
+    "2244": {
+        "hgnc_id": "3662",
+        "name": "fibrinogen beta chain",
+        "aliases": [
+            "beta-fibrinogen",
+            "epididymis secretory sperm binding protein Li 78p",
+            "fibrinogen beta chain",
+            "fibrinogen, B beta polypeptide"
+        ],
+        "hg38": {
+            "chr": "4",
+            "end": 154572807,
+            "ensemblgene": "ENSG00000171564",
+            "start": 154562971,
+            "strand": 1
+        },
+        "hg19": {
+            "chr": "4",
+            "end": 155492238,
+            "start": 155484108,
+            "strand": 1
+        },
+        "diseases": [
+            "congestive heart failure",
+            "diabetes",
+            "renal function decline",
+            "segmental glomerulosclerosis",
+            "FSGS lesion",
+            "kidney disease",
+            "edema",
+            "Alport syndrome",
+            "focal segmental glomerulosclerosis",
+            "FSGS",
+            "hyperlipidemia"
+        ]
+    },
+    "213": {
+        "hgnc_id": "399",
+        "name": "albumin",
+        "aliases": [
+            "albumin",
+            "serum albumin"
+        ],
+        "hg38": {
+            "chr": "4",
+            "end": 73426607,
+            "ensemblgene": "ENSG00000163631",
+            "start": 73397114,
+            "strand": 1
+        },
+        "hg19": {
+            "chr": "4",
+            "end": 74287129,
+            "start": 74262831,
+            "strand": 1
+        },
+        "diseases": [
+            "FSGS lesion",
+            "Klinefelter syndrome",
+            "hypercholesterolemia",
+            "FSGS",
+            "proteinuria",
+            "renal failure",
+            "hyperlipidemia",
+            "duplication of the X chromosome",
+            "congestive heart failure",
+            "diabetes",
+            "renal function decline",
+            "segmental glomerulosclerosis",
+            "autosomal recessive nephrotic syndrome type 2",
+            "kidney disease",
+            "edema",
+            "hypertriglyceridemia",
+            "Alport syndrome",
+            "MIM 600995",
+            "focal segmental glomerulosclerosis",
+            "azoospermia"
+        ]
+    },
+    "3630": {
+        "hgnc_id": "6081",
+        "name": "insulin",
+        "aliases": [
+            "insulin",
+            "preproinsulin",
+            "proinsulin"
+        ],
+        "hg38": {
+            "chr": "11",
+            "end": 2161221,
+            "ensemblgene": "ENSG00000254647",
+            "start": 2159779,
+            "strand": -1
+        },
+        "hg19": {
+            "chr": "11",
+            "end": 2182571,
+            "start": 2181009,
+            "strand": -1
+        },
+        "diseases": [
+            "medullary nephrocalcinosis",
+            "Paresthesias",
+            "Gitelman syndrome",
+            "diabetes",
+            "hypocalcemia",
+            "pyelonephritis",
+            "sepsis",
+            "urinary tract infection",
+            "nephrolithiasis",
+            "renal calculi",
+            "hypokalemia",
+            "pancreatitis",
+            "cardiac arrest",
+            "electrolyte imbalances",
+            "electrolyte-losing tubulopathy",
+            "dilated cardiomyopathy",
+            "tubulopathy",
+            "hypomagnesemia",
+            "urinary tract infections"
+        ]
+    },
+    "2475": {
+        "hgnc_id": "3942",
+        "name": "mechanistic target of rapamycin kinase",
+        "aliases": [
+            "FK506 binding protein 12-rapamycin associated protein 2",
+            "FK506-binding protein 12-rapamycin complex-associated protein 1",
+            "FKBP-rapamycin associated protein",
+            "FKBP12-rapamycin complex-associated protein 1",
+            "mammalian target of rapamycin",
+            "mechanistic target of rapamycin (serine/threonine kinase)",
+            "rapamycin and FKBP12 target 1",
+            "rapamycin associated protein FRAP2",
+            "rapamycin target protein 1",
+            "serine/threonine-protein kinase mTOR",
+            "tyrosine-protein kinase mTOR"
+        ],
+        "hg38": {
+            "chr": "1",
+            "end": 11262556,
+            "ensemblgene": "ENSG00000198793",
+            "start": 11106531,
+            "strand": -1
+        },
+        "hg19": {
+            "chr": "1",
+            "end": 11322564,
+            "start": 11166592,
+            "strand": -1
+        },
+        "diseases": [
+            "medullary nephrocalcinosis",
+            "Paresthesias",
+            "Gitelman syndrome",
+            "diabetes",
+            "hypocalcemia",
+            "pyelonephritis",
+            "sepsis",
+            "urinary tract infection",
+            "nephrolithiasis",
+            "renal calculi",
+            "hypokalemia",
+            "pancreatitis",
+            "cardiac arrest",
+            "electrolyte imbalances",
+            "electrolyte-losing tubulopathy",
+            "dilated cardiomyopathy",
+            "tubulopathy",
+            "hypomagnesemia",
+            "urinary tract infections"
+        ]
+    },
+    "8924": {
+        "hgnc_id": "4868",
+        "name": "HECT and RLD domain containing E3 ubiquitin protein ligase 2",
+        "aliases": [
+            "E3 ubiquitin-protein ligase HERC2",
+            "HECT-type E3 ubiquitin transferase HERC2",
+            "hect domain and RCC1-like domain-containing protein 2",
+            "hect domain and RLD 2",
+            "probable E3 ubiquitin-protein ligase HERC2"
+        ],
+        "hg38": {
+            "chr": "15",
+            "end": 28322179,
+            "ensemblgene": "ENSG00000128731",
+            "start": 28111040,
+            "strand": -1
+        },
+        "hg19": {
+            "chr": "15",
+            "end": 28567298,
+            "start": 28356186,
+            "strand": -1
+        },
+        "diseases": [
+            "Intellectual Developmental Disorder",
+            "VUS",
+            "Autosomal Recessive 38 syndrome",
+            "fevers",
+            "GS"
+        ]
+    }
+}
